@@ -39,3 +39,21 @@ background-color: aqua;
 }
 
 
+footer{
+  background-color: rgb(39, 37, 41);
+  padding: 1rem 2rem 3rem;
+}
+footer p,footer a {
+  color: aliceblue;
+  text-decoration: none;
+}
+ul.Social {
+  list-style-type: none;
+  display: flex;
+  max-width: 16rem;
+  margin: 0 auto;
+}
+
+ul.Social li {
+  margin: 0 auto;
+}
