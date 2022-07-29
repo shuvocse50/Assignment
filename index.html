@@ -19,12 +19,12 @@
       rel="stylesheet"
     />
 
-
   </head>
 
 
-
   <body>
+
+
     <div class="container">
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg bg-light navbar-light py-5">
@@ -333,66 +333,78 @@
  
   <div class="container">
         
- 
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-      <div class="accordion-item ">
-        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-            What are the differences between bootstrap and tailwind? 
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-          <div class="accordion-body">
-            The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have a default theme or built-in UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch
+    <div class="container">
+      <div id="accordion">
+          <div class="card">
+              <div class="card-header">
+                  <a class="card-link"
+                      data-toggle="collapse"
+                      href="#description1">
+                      What are the differences between bootstrap and tailwind?
+                  </a>
+              </div>
+              <div id="description1"
+                  class="collapse show"
+                  data-parent="#accordion">
+                  <div class="card-body">
+                    The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have a default theme or built-in UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch.
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
-      
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-            what is the difference between flexbox and grid ?
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-          <div class="accordion-body">
-    
-            Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
-            
+          <div class="card">
+              <div class="card-header">
+                  <a class="collapsed card-link"
+                      data-toggle="collapse"
+                      href="#description2">
+                      what is the difference between flexbox and grid ?
+                  </a>
+              </div>
+              <div id="description2" class="collapse"
+                  data-parent="#accordion">
+                  <div class="card-body">
+                    Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
+                  </div>
+              </div>
           </div>
-        </div>
+          <div class="card">
+              <div class="card-header">
+                  <a class="collapsed card-link"
+                      data-toggle="collapse"
+                      href="#description3">
+                      What is css box model?
+                  </a>
+              </div>
+              <div id="description3" class="collapse"
+                  data-parent="#accordion">
+                  <div class="card-body">
+                    In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+                  </div>
+              </div>
+          </div>
       </div>
-      
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-          what is a semantic tag ?
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-        <div class="accordion-body">
-          The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
-        </div>
-      </div>
-    </div>
-    </div>
 
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-          What is css box model?
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-        <div class="accordion-body">
-          In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+
+      <div class="card">
+        <div class="card-header">
+            <a class="collapsed card-link"
+                data-toggle="collapse"
+                href="#description3">
+                what is a semantic tag ?
+            </a>
         </div>
-      </div>
+        <div id="description3" class="collapse"
+            data-parent="#accordion">
+            <div class="card-body">
+              The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+            </div>
+        </div>
     </div>
-    </div>
-    
-    
-  </div>
+</div>
+
+
+   </div>
+
+  
 
 
 
