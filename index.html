@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/4ad87e5199.js" crossorigin="anonymous"></script>
 
   </head>
 
@@ -331,82 +332,97 @@
   <!-- according -->
   
  
+
+
   <div class="container">
-        
-    <div class="container">
-      <div id="accordion">
-          <div class="card">
-              <div class="card-header">
-                  <a class="card-link"
-                      data-toggle="collapse"
-                      href="#description1">
-                      What are the differences between bootstrap and tailwind?
-                  </a>
-              </div>
-              <div id="description1"
-                  class="collapse show"
-                  data-parent="#accordion">
-                  <div class="card-body">
-                    The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have a default theme or built-in UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch.
-                  </div>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header">
-                  <a class="collapsed card-link"
-                      data-toggle="collapse"
-                      href="#description2">
-                      what is the difference between flexbox and grid ?
-                  </a>
-              </div>
-              <div id="description2" class="collapse"
-                  data-parent="#accordion">
-                  <div class="card-body">
-                    Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
-                  </div>
-              </div>
-          </div>
-          <div class="card">
-              <div class="card-header">
-                  <a class="collapsed card-link"
-                      data-toggle="collapse"
-                      href="#description3">
-                      What is css box model?
-                  </a>
-              </div>
-              <div id="description3" class="collapse"
-                  data-parent="#accordion">
-                  <div class="card-body">
-                    In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
-                  </div>
-              </div>
-          </div>
-      </div>
-
-
-      <div class="card">
-        <div class="card-header">
-            <a class="collapsed card-link"
-                data-toggle="collapse"
-                href="#description3">
-                what is a semantic tag ?
-            </a>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between">
+                <a class="card-link"
+                    data-toggle="collapse"
+                    href="#description1">
+                    What are the differences between bootstrap and tailwind?
+                </a>
+                <a class="card-link"
+                    data-toggle="collapse"
+                    href="#description1">
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>            
+                
+            </div>
+            <div id="description1"
+                class="collapse show"
+                data-parent="#accordion">
+                <div class="card-body">
+                  Bootstrap's utility and layout classes provide you with everything you need to style a responsive webpage. With Tailwind, however, you are much more involved in styling the webpage because you end up having to create your own components using the utility classes that the framework offers.
+                </div>
+            </div>
         </div>
-        <div id="description3" class="collapse"
-            data-parent="#accordion">
-            <div class="card-body">
-              The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+        <div class="card">
+            <div class="card-header d-flex justify-content-between">
+                <a class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#description2">
+                    what is the difference between flexbox and grid ?
+                </a>
+                <a class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#description2">
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+            </div>
+            <div id="description2" class="collapse"
+                data-parent="#accordion">
+                <div class="card-body">
+                  Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header d-flex justify-content-between">
+                <a class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#description3">
+                    what is a semantic tag ?
+                </a>
+                <a class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#description3">
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+            </div>
+            <div id="description3" class="collapse"
+                data-parent="#accordion">
+                <div class="card-body">
+                  The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header d-flex justify-content-between">
+                <a class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#description4">
+                    What is css box model?
+                </a>
+                <a class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#description4">
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+            </div>
+            <div id="description4" class="collapse"
+                data-parent="#accordion">
+                <div class="card-body">
+                  The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself.
+              
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-
-   </div>
+ </div>
 
   
-
-
 
 <!-- bonus-2-->
 
